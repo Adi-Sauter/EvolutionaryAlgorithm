@@ -1,0 +1,143 @@
+{
+    "classes": [
+      {
+        "name": "1",
+        "subjects_and_hours": {
+          "Math": {
+            "teacher": "A",
+            "hours": 2
+          },
+          "English": {
+            "teacher": "A",
+            "hours": 2
+          },
+          "Physical Education": {
+            "teacher": "A",
+            "hours": 1
+          },
+          "Spanish": {
+            "teacher": "A",
+            "hours": 1
+          },
+          "Biology": {
+            "teacher": "B",
+            "hours": 1
+          },
+          "Physics": {
+            "teacher": "B",
+            "hours": 1
+          },
+          "Chemistry": {
+            "teacher": "B",
+            "hours": 2
+          },
+          "Informatics": {
+            "teacher": "B",
+            "hours": 2
+          }
+        }
+      },
+        {
+          "name": "2",
+          "subjects_and_hours": {
+            "Math": {
+              "teacher": "C",
+              "hours": 2
+            },
+            "Biology": {
+              "teacher": "C",
+              "hours": 1
+            },
+            "English": {
+              "teacher": "C",
+              "hours": 1
+            },
+            "Spanish": {
+              "teacher": "C",
+              "hours": 2
+            },
+            "Physical Education": {
+              "teacher": "D",
+              "hours": 2
+            },
+            "Informatics": {
+              "teacher": "D",
+              "hours": 2
+            },
+            "Physics": {
+              "teacher": "D",
+              "hours": 1
+            },
+            "Chemistry": {
+              "teacher": "D",
+              "hours": 1
+            }
+          }
+        },
+          {
+            "name": "3",
+            "subjects_and_hours": {
+              "Math": {
+                "teacher": "E",
+                "hours": 2
+              },
+              "Biology": {
+                "teacher": "E",
+                "hours": 2
+              },
+              "English": {
+                "teacher": "E",
+                "hours": 1
+              },
+              "Spanish": {
+                "teacher": "E",
+                "hours": 1
+              },
+              "Physical Education": {
+                "teacher": "F",
+                "hours": 1
+              },
+              "Physics": {
+                "teacher": "F",
+                "hours": 1
+              },
+              "Chemistry": {
+                "teacher": "F",
+                "hours": 2
+              },
+              "Informatics": {
+                "teacher": "F",
+                "hours": 2
+              }
+            }
+          }
+
+    ],
+    "teachers": [
+      {
+        "name": "A",
+        "availability": [[1, 1, 1, 1, 0, 1], [1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 0, 1], [1, 1, 1, 1, 1, 1], [0, 1, 1, 1, 1, 1]]
+      },
+      {
+        "name": "B",
+        "availability": [[0, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 0, 1], [1, 1, 1, 1, 1, 1]]
+      },
+      {
+        "name": "C",
+        "availability": [[1, 1, 0, 1, 1, 1], [1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1], [1, 1, 0, 1, 1, 1]]
+      },
+      {
+        "name": "D",
+        "availability": [[1, 1, 1, 1, 0, 1], [1, 1, 0, 1, 1, 1], [1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 0], [1, 1, 1, 1, 1, 1]]
+      },
+      {
+        "name": "E",
+        "availability": [[1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1], [0, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1]]
+      },
+      {
+        "name": "F",
+        "availability": [[1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1], [1, 1, 0, 1, 1, 1], [1, 1, 1, 1, 1, 1]]
+      }
+    ],
+    "timeslots": ["8:00-9:30", "9:45-11:15", "11:30-13:00", "14:00-15:30", "15:45-17:15", "17:30-19:00"]
+    }

@@ -1,0 +1,95 @@
+{
+    "classes": [
+      {
+        "name": "1",
+        "subjects_and_hours": {
+          "Math": {
+            "teacher": "Ms. Alice",
+            "hours": 4
+          },
+          "English": {
+            "teacher": "Ms. Smith",
+            "hours": 2
+          },
+          "Physical Education": {
+            "teacher": "Mr. Propper",
+            "hours": 2
+          },
+          "Spanish": {
+            "teacher": "Ms. Smith",
+            "hours": 2
+          },
+          "Biology": {
+            "teacher": "Ms. Alice",
+            "hours": 2
+          }
+        }
+      },
+      {
+        "name": "2",
+        "subjects_and_hours": {
+          "English": {
+            "teacher": "Ms. Smith",
+            "hours": 2
+          },
+          "Math": {
+            "teacher": "Mr. Smith",
+            "hours": 2
+          },
+          "Physical Education": {
+            "teacher": "Mr. Propper",
+            "hours": 2
+          },
+          "Spanish": {
+            "teacher": "Mr. Propper",
+            "hours": 4
+          },
+          "Biology": {
+            "teacher": "Ms. Alice",
+            "hours": 2
+          }
+        }
+        },
+        {
+            "name": "3",
+            "subjects_and_hours": {
+              "Math": {
+                "teacher": "Ms. Alice",
+                "hours": 2
+              },
+              "Biology": {
+                "teacher": "Ms. Alice",
+                "hours": 2
+              },
+              "English": {
+                "teacher": "Ms. Smith",
+                "hours": 4
+              },
+              "Spanish": {
+                "teacher": "Mr. Propper",
+                "hours": 2
+              },
+              "Physical Education": {
+                "teacher": "Mr. Propper",
+                "hours": 2
+              }
+            }
+          }
+        
+    ],
+    "teachers": [
+      {
+        "name": "Mr. Propper",
+        "availability": [[0, 0, 1, 1, 1, 0], [1, 1, 1, 1, 0, 0], [1, 1, 1, 1, 1, 0], [1, 1, 1, 1, 0, 0], [1, 1, 1, 1, 0, 0]]
+      },
+      {
+        "name": "Ms. Smith",
+        "availability": [[1, 1, 1, 1, 1, 0], [0, 1, 1, 1, 0, 0], [1, 1, 1, 1, 1, 0], [1, 1, 1, 0, 0, 0], [1, 1, 1, 1, 1, 0]]
+      },
+      {
+        "name": "Ms. Alice",
+        "availability": [[1, 1, 0, 1, 1, 1], [0, 1, 1, 1, 1, 1], [1, 1, 1, 1, 0, 0], [1, 1, 0, 1, 1, 0], [0, 1, 1, 1, 1, 0]]
+      }
+    ],
+    "timeslots": ["8:00-9:30", "9:45-11:15", "11:30-13:00", "14:00-15:30", "15:45-17:15", "17:30-19:00"]
+    }

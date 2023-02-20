@@ -1,0 +1,179 @@
+{
+    "classes": [
+      {
+        "name": "Cougars",
+        "subjects_and_hours": {
+          "Math": {
+            "teacher": "Mr. Euler",
+            "hours": 2
+          },
+          "IT": {
+            "teacher": "Mr. Euler",
+            "hours": 1
+          },
+          "P.E.": {
+            "teacher": "Mr. Johnson",
+            "hours": 1
+          },
+          "English": {
+            "teacher": "Ms. Chomsky",
+            "hours": 2
+          },
+          "Spanish": {
+            "teacher": "Ms. Chomsky",
+            "hours": 2
+          },
+          "Chemistry": {
+            "teacher": "Mr. White",
+            "hours": 1
+          },
+          "History": {
+            "teacher": "Ms. Freud",
+            "hours": 1
+          },
+          "Music": {
+            "teacher": "Ms. Freud",
+            "hours": 1
+          },
+          "Physics": {
+            "teacher": "Mr. White",
+            "hours": 1
+          },
+          "Politics": {
+            "teacher": "Ms. Freud",
+            "hours": 1
+          },
+          "Biology": {
+            "teacher": "Mr. White",
+            "hours": 1
+          },
+          "Acting": {
+            "teacher": "Mr. Johnson",
+            "hours": 1
+          }
+        }
+      },
+      {
+        "name": "Dolphins",
+        "subjects_and_hours": {
+          "Chemistry": {
+            "teacher": "Mr. White",
+            "hours": 1
+          },
+          "French": {
+            "teacher": "Ms. Chomsky",
+            "hours": 1
+          },
+          "Psychology": {
+            "teacher": "Ms. Freud",
+            "hours": 1
+          },
+          "Math": {
+            "teacher": "Mr. Euler",
+            "hours": 2
+          },
+          "Statistics": {
+            "teacher": "Mr. Euler",
+            "hours": 1
+          },
+          "Spanish": {
+            "teacher": "Ms. Chomsky",
+            "hours": 2
+          },
+          "P.E.": {
+            "teacher": "Mr. Johnson",
+            "hours": 1
+          },
+          "Politics": {
+            "teacher": "Ms. Freud",
+            "hours": 1
+          },
+          "Art": {
+            "teacher": "Ms. Freud",
+            "hours": 1
+          },
+          "Chinese": {
+            "teacher": "Ms. Musk",
+            "hours": 1
+          },
+          "Economy": {
+            "teacher": "Ms. Musk",
+            "hours": 1
+          }
+        }
+        },
+        {
+            "name": "Eagles",
+            "subjects_and_hours": {
+              "Math": {
+                "teacher": "Mr. Euler",
+                "hours": 2
+              },
+              "Latin": {
+                "teacher": "Ms. Musk",
+                "hours": 1
+              },
+              "Astronomy": {
+                "teacher": "Ms. Musk",
+                "hours": 1
+              },
+              "Spanish": {
+                "teacher": "Ms. Chomsky",
+                "hours": 2
+              },
+              "History": {
+                "teacher": "Ms. Freud",
+                "hours": 1
+              },
+              "Biology": {
+                "teacher": "Ms. Chomsky",
+                "hours": 1
+              },
+              "Chinese": {
+                "teacher": "Ms. Musk",
+                "hours": 2
+              },
+              "Acting": {
+                "teacher": "Mr. Johnson",
+                "hours": 1
+              },
+              "Music": {
+                "teacher": "Ms. Freud",
+                "hours": 1
+              },
+              "P.E.": {
+                "teacher": "Mr. Johnson",
+                "hours": 1
+              }
+            }
+          }
+
+    ],
+    "teachers": [
+      {
+        "name": "Mr. Euler",
+        "availability": [[1, 1, 1, 1, 1, 0], [1, 1, 1, 1, 1, 0], [0, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 0, 1]]
+      },
+      {
+        "name": "Ms. Chomsky",
+        "availability": [[0, 1, 1, 1, 1, 1], [0, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 0], [0, 1, 1, 1, 0, 0], [1, 1, 1, 1, 1, 0]]
+      },
+      {
+        "name": "Mr. White",
+        "availability": [[1, 1, 1, 1, 1, 0], [0, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 0], [0, 0, 1, 1, 1, 1], [1, 1, 1, 1, 1, 0]]
+      },
+      {
+        "name": "Ms. Freud",
+        "availability": [[0, 0, 1, 1, 1, 1], [1, 1, 1, 1, 1, 0], [0, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 0], [1, 1, 1, 1, 0, 0]]
+      },
+      {
+        "name": "Mr. Johnson",
+        "availability": [[0, 1, 1, 1, 1, 0], [1, 1, 0, 1, 1, 1], [0, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 0]]
+      },
+      {
+        "name": "Ms. Musk",
+        "availability": [[0, 0, 1, 1, 1, 1], [1, 1, 1, 1, 1, 0], [1, 1, 1, 0, 1, 0], [0, 0, 1, 1, 1, 1], [1, 1, 1, 1, 0, 0]]
+      }
+    ],
+    "timeslots": ["8:00-9:30", "9:45-11:15", "11:30-13:00", "14:00-15:30", "15:45-17:15", "17:30-19:00"]
+    }
